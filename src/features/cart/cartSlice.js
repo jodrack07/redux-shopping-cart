@@ -17,7 +17,7 @@ export const getCartItems = createAsyncThunk(
             const response = await axios(url)
             return response.data;
         } catch (error) {
-            return thunkAPI.rejectWithValue('Nework error...');
+            console.log(error);
         }
     }
 );
