@@ -12,7 +12,7 @@ const initialState = {
 
 export const getCartItems = createAsyncThunk(
     'cart/getCartItems',
-    async (_, thunkAPI) => {
+    async () => {
         try {
             const response = await axios(url)
             return response.data;
