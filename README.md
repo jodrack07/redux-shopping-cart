@@ -15,6 +15,9 @@ only one source of truth, a store, in which we have all of our states to manage 
 - Redux ToolKit
 - Axios
 
+## Live Demo
+https://basicreactshoppingcart.netlify.app/
+
 ## Author:
 - Buingo Joseph
 
